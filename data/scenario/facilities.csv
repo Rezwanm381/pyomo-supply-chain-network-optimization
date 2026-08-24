@@ -1,0 +1,7 @@
+facility_id,facility_name,x_coord_sdu,y_coord_sdu,capacity_units_per_year,fixed_cost_usd_per_year,provenance
+FAC_NW,Northwest Candidate,20,78,330,74000,SCENARIO_ASSUMPTION
+FAC_SW,Southwest Candidate,22,25,300,61000,SCENARIO_ASSUMPTION
+FAC_C,Central Candidate,50,50,430,92000,SCENARIO_ASSUMPTION
+FAC_NE,Northeast Candidate,80,78,340,76000,SCENARIO_ASSUMPTION
+FAC_SE,Southeast Candidate,82,22,320,64000,SCENARIO_ASSUMPTION
+FAC_EC,East-Central Candidate,72,52,380,85000,SCENARIO_ASSUMPTION

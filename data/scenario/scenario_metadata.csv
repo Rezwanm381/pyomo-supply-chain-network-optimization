@@ -1,0 +1,8 @@
+key,value,unit,provenance,notes
+scenario_name,SYNTHETIC_REGIONAL_DISTRIBUTION_NETWORK,text,SCENARIO_ASSUMPTION,No real company or geography
+data_strategy,MANUALLY_DEFINED_DETERMINISTIC_SCENARIO,text,SCENARIO_ASSUMPTION,No random generation or parameter-search code is present; timing relative to the first diagnostic solve is not independently reconstructable
+random_seed,NOT_APPLICABLE,text,SCENARIO_ASSUMPTION,No random generation and no seed search
+planning_horizon,1,year,SCENARIO_ASSUMPTION,All flow and cost quantities share one annual horizon
+distance_method,EUCLIDEAN_SYNTHETIC_COORDINATES,text,SCENARIO_ASSUMPTION,Schematic proxy rather than road distance
+distance_rate_usd_per_unit_sdu,3.20,USD/(unit*SDU),SCENARIO_ASSUMPTION,Not a sourced freight rate
+transport_cost_rounding_decimals,2,decimal_places,SCENARIO_ASSUMPTION,Round once after using unrounded distance

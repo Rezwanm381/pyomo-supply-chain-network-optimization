@@ -1,0 +1,10 @@
+scenario_id,demand_multiplier,capacity_multiplier,fixed_cost_multiplier,transport_cost_multiplier,expected_feasible,include_in_sensitivity,provenance,description
+DEMAND_LOW,0.80,1.00,1.00,1.00,TRUE,TRUE,SCENARIO_ASSUMPTION,Demand 20 percent below base
+DEMAND_BASE,1.00,1.00,1.00,1.00,TRUE,TRUE,SCENARIO_ASSUMPTION,Base scenario
+DEMAND_HIGH,1.20,1.00,1.00,1.00,TRUE,TRUE,SCENARIO_ASSUMPTION,Demand 20 percent above base
+TRANSPORT_LOW,1.00,1.00,1.00,0.75,TRUE,TRUE,SCENARIO_ASSUMPTION,Unit shipment costs 25 percent below base
+TRANSPORT_HIGH,1.00,1.00,1.00,1.25,TRUE,TRUE,SCENARIO_ASSUMPTION,Unit shipment costs 25 percent above base
+FIXED_LOW,1.00,1.00,0.75,1.00,TRUE,TRUE,SCENARIO_ASSUMPTION,Facility fixed costs 25 percent below base
+FIXED_HIGH,1.00,1.00,1.25,1.00,TRUE,TRUE,SCENARIO_ASSUMPTION,Facility fixed costs 25 percent above base
+CAPACITY_STRESS,1.00,0.90,1.00,1.00,TRUE,TRUE,SCENARIO_ASSUMPTION,Every facility capacity reduced by 10 percent
+INFEASIBLE_DEMO,2.25,1.00,1.00,1.00,FALSE,FALSE,SYNTHETIC_TEST_VALUE,Total demand exceeds total potential capacity

@@ -1,0 +1,7 @@
+pyomo==6.10.1
+highspy==1.15.1
+pandas==3.0.1
+numpy==2.3.5
+scipy==1.18.1
+matplotlib==3.11.1
+pytest==9.1.1
