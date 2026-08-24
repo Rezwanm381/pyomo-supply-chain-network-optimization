@@ -113,7 +113,7 @@ Validation is a central feature of the project:
 - a controlled demand-greater-than-capacity case is rejected before solving;
 - all 30 automated tests pass.
 
-The checked-in enumeration uses an independently assembled SciPy transportation formulation, although both it and Pyomo use the HiGHS engine. Module 7.5C additionally confirmed every subset with a solver-engine-free min-cost-flow validation. Enumeration is practical here because there are only six binary decisions; it is not presented as a scalable method for large industrial networks.
+The checked-in enumeration uses an independently assembled SciPy transportation formulation, although both it and Pyomo use the HiGHS engine. An additional check confirmed every subset with a solver-engine-free min-cost-flow validation. Enumeration is practical here because there are only six binary decisions; it is not presented as a scalable method for large industrial networks.
 
 See [reports/validation_summary.md](reports/validation_summary.md).
 
@@ -172,7 +172,7 @@ repository-root/
 └── reports/              # methodology, results, sensitivity, and validation
 ```
 
-Local environments, caches, historical references, and internal-only audit evidence are excluded from the interim public allowlist. Module 8A approval remains subject to the final five-project Module 8B audit.
+Local environments, caches, historical references, and audit-only evidence are excluded from this repository.
 
 ## Limitations
 
@@ -187,7 +187,7 @@ See [reports/limitations.md](reports/limitations.md).
 
 ## Provenance
 
-The public implementation is a clean-room rewrite. Historical Pyomo material was used only as conceptual/coursework reference; original authorship, starter-code lineage, and submission provenance remain unresolved. Historical code, data, and saved results are not represented as this implementation and are excluded from the public candidate.
+The public implementation is a clean-room rewrite. Historical Pyomo material was used only as conceptual/coursework reference; original authorship, starter-code lineage, and submission provenance remain unresolved. Historical code, data, and saved results are not represented as this implementation and are excluded from the repository.
 
 See [docs/authorship_and_provenance.md](docs/authorship_and_provenance.md) and [docs/public_claims.md](docs/public_claims.md).
 
@@ -201,10 +201,6 @@ See [docs/authorship_and_provenance.md](docs/authorship_and_provenance.md) and [
 - solver-status and solution validation;
 - Python testing and reproducible optimization.
 
-## License and citation status
+## Rights and citation
 
-The final public license remains an owner decision pending Module 8B. See [LICENSE_STATUS.md](LICENSE_STATUS.md). A non-publication citation placeholder is available in [CITATION.md](CITATION.md).
-
-## Publication status
-
-Module 8A granted interim approval after the recorded prepublication edits, pending the final five-project Module 8B audit. Nothing has been published.
+This repository is public for portfolio review. No public license has been assigned; see [LICENSE_STATUS.md](LICENSE_STATUS.md) for the current rights posture. A citation placeholder is available in [CITATION.md](CITATION.md).
